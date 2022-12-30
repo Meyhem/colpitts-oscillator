@@ -1,0 +1,18 @@
+* D:\electro\colpitts\colpitts.asc
+V1 vcc 0 15
+C1 N001 0 10n
+C2 0 N003 10n
+L1 N001 N003 50n
+C3 N004 N003 500p
+R1 vcc N004 20k
+R2 N004 0 1k
+Q1 N001 N004 0 0 2N2222
+L2 vcc N001 5µ
+C4 N002 N001 10n
+R3 N002 0 1k
+.model NPN NPN
+.model PNP PNP
+.lib D:\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 50u uic
+.backanno
+.end

@@ -1,0 +1,21 @@
+Circuit: * D:\electro\colpitts\colpitts.asc
+
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Fri Dec 30 19:11:57 2022
+Total elapsed time: 0.575 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 219705
+traniter = 219705
+tranpoints = 69204
+accept = 48229
+rejected = 20975
+matrix size = 9
+fillins = 2
+solver = Normal
+Matrix Compiler1: 688 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
